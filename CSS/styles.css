@@ -1,0 +1,122 @@
+#menu {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  #menu img {
+    width: 700px;
+    height: 200px;
+    border-radius: 0%;
+    margin-right: 50px;
+  }
+ 
+  #menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+ 
+  #menu a {
+    color: #695f5f;
+    padding: 5px;
+  }
+ 
+  #menu a:hover {
+    background-color: #ddd;
+  }
+  #wrapper {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+ 
+  #photo {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+ 
+  #content {
+    flex: 1 1 auto;
+  }
+ 
+  #photo img {
+    width: 700px;
+    height: auto;
+    border-radius: 0%;
+  }
+
+  .myWork {
+    text-align: center;
+  }
+
+
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 30px; 
+  }
+
+  .flexContainer div {
+    width: 33%;
+  }
+
+  .workGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin-top: 20px; 
+  }
+
+  .myWork {
+    flex: 0 0 33%; 
+    box-sizing: border-box; 
+    margin: 15px; 
+    text-align: center;
+  }
+
+ .mySkills {
+  /* display: inline-flexbox; */
+  background-color: rgb(141, 173, 171);
+  padding: 20px;
+  text-align: center;
+ }
+  
+ @media only screen and (max-width: 600px) { 
+  body 
+  .flexContainer {
+    display: flex; 
+    flex-direction:column;
+  }
+  .flexContainer div {
+    width: 100%;
+  }
+}
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(141, 173, 171);
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+
+.hover-element {
+  background-color: rgb(220, 220, 231);
+  color: black;
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.hover-element:hover {
+  background-color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+}
